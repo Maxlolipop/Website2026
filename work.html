@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLTFRAME — Services & Work</title>
+  <meta name="description" content="Photography services by VOLTFRAME. Team coverage, brand campaigns, athlete portfolios, and event documentation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="top-bar" id="topBar">
+    <div class="top-bar__inner">
+      <a href="index.html" class="top-bar__logo">
+        <svg class="top-bar__bolt" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#00d992" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+        <span class="top-bar__name">MAX</span>
+      </a>
+
+      <div class="top-bar__links" id="navLinks">
+        <a href="index.html" class="top-bar__link">HOME</a>
+        <a href="work.html" class="top-bar__link">SERVICES</a>
+        <a href="index.html#gallery" class="top-bar__link">ARCHIVE</a>
+        <a href="index.html#contact" class="top-bar__link">TRANSMIT</a>
+      </div>
+
+      <div class="top-bar__actions">
+        <a href="index.html#contact" class="btn btn--primary">BOOK_SESSION</a>
+        <button class="top-bar__hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" class="mobile-nav__link">HOME</a>
+    <a href="work.html" class="mobile-nav__link">SERVICES</a>
+    <a href="index.html#gallery" class="mobile-nav__link">ARCHIVE</a>
+    <a href="index.html#contact" class="mobile-nav__link">TRANSMIT</a>
+    <a href="index.html#contact" class="btn btn--primary mobile-nav__cta">BOOK_SESSION</a>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero hero--compact" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__overline">SERVICE PROTOCOLS v2.6</p>
+      <h1 class="hero__title">
+        What I <span class="hero__accent">Deliver</span>
+      </h1>
+      <p class="hero__sub">
+        From courtside to the pit lane — a full breakdown of how I operate, what I shoot, and what you walk away with.
+      </p>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Services</h2>
+        <p class="section-header__desc">Each engagement is tailored to the scope, sport, and deliverables you need. Here's what I cover.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#00d992" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="10" width="36" height="28" rx="3"/>
+              <circle cx="24" cy="24" r="8"/>
+              <circle cx="24" cy="24" r="3"/>
+              <line x1="14" y1="16" x2="18" y2="16"/>
+            </svg>
+          </div>
+          <div class="service-card__content">
+            <h3 class="service-card__title">Team & League Coverage</h3>
+            <p class="service-card__desc">Full-season or single-game documentation for professional and youth teams. I embed with the team to capture game action, locker room moments, and sideline intensity.</p>
+            <div class="service-card__details">
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">DELIVERABLES</span>
+                <span class="service-card__detail-value">minimum of 50 edited frames per game</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">TURNAROUND</span>
+                <span class="service-card__detail-value">72h post-event</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">FORMAT</span>
+                <span class="service-card__detail-value">High-res JPEG</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#00d992" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 36 L18 18 L26 28 L34 14 L42 24"/>
+              <rect x="4" y="6" width="40" height="36" rx="3"/>
+              <circle cx="14" cy="14" r="3"/>
+            </svg>
+          </div>
+          <div class="service-card__content">
+            <h3 class="service-card__title">Brand Campaigns</h3>
+            <p class="service-card__desc">Athlete-driven visual content for sportswear, equipment, and lifestyle brands. I work with your creative team or shoot independently based on a brief.</p>
+            <div class="service-card__details">
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">DELIVERABLES</span>
+                <span class="service-card__detail-value">10-20 images (possibility to add more)</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">TURNAROUND</span>
+                <span class="service-card__detail-value">72h standard / 24h rush</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">POSSIBLE FORMAT</span>
+                <span class="service-card__detail-value">Web, print, social crops</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#00d992" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="24" cy="18" r="10"/>
+              <path d="M8 42 C8 34 16 28 24 28 C32 28 40 34 40 42"/>
+            </svg>
+          </div>
+          <div class="service-card__content">
+            <h3 class="service-card__title">Athlete Portfolios</h3>
+            <p class="service-card__desc">Individual sessions for athletes building their personal brand. Studio or on-location — training environments, competition settings, or stylized portrait work.</p>
+            <div class="service-card__details">
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">DELIVERABLES</span>
+                <span class="service-card__detail-value">10-20 edited images (possibility to add more)</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">TURNAROUND</span>
+                <span class="service-card__detail-value">48–72h</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">FORMAT</span>
+                <span class="service-card__detail-value">Full-res + social-ready</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#00d992" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="4" width="40" height="40" rx="4"/>
+              <line x1="4" y1="16" x2="44" y2="16"/>
+              <line x1="16" y1="4" x2="16" y2="44"/>
+              <line x1="32" y1="4" x2="32" y2="44"/>
+              <line x1="4" y1="30" x2="44" y2="30"/>
+            </svg>
+          </div>
+          <div class="service-card__content">
+            <h3 class="service-card__title">Event Documentation</h3>
+            <p class="service-card__desc">Multi-day coverage for tournaments, invitationals, charity matches, and sports conferences. Full event narrative from setup to trophy lift.</p>
+            <div class="service-card__details">
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">DELIVERABLES</span>
+                <span class="service-card__detail-value">500–1500 images per day</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">TURNAROUND</span>
+                <span class="service-card__detail-value">Same-day 5 stars pictures + full gallery in 72h</span>
+              </div>
+              <div class="service-card__detail">
+                <span class="service-card__detail-label">FORMAT</span>
+                <span class="service-card__detail-value">Online gallery + downloadable archive</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__overline">EXECUTION SEQUENCE</p>
+        <h2 class="section-header__title">How It Works</h2>
+        <p class="section-header__desc">Every project follows the same core sequence. Clean, predictable, no surprises.</p>
+      </div>
+
+      <div class="process__timeline">
+
+        <div class="process__step">
+          <div class="process__step-number">01</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Briefing</h3>
+            <p class="process__step-desc">You reach out with the basics — sport, date, location, and what you need the images for. I come back with a scope, shot list, and quote within 48 hours.</p>
+          </div>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-number">02</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Pre-Production</h3>
+            <p class="process__step-desc">I scout locations (in-person or virtually), lock in credentials and access if needed, and finalize the shot plan. You approve, we're locked.</p>
+          </div>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-number">03</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Capture</h3>
+            <p class="process__step-desc">Game day. I show up early, position for the key moments, and shoot continuously.</p>
+          </div>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-number">04</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Post & Delivery</h3>
+            <p class="process__step-desc">Cull, color grade, and export. You get a private gallery link with download access. Same-day highlights available for social teams on tight deadlines.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--
+    EQUIPMENT
+    <section class="equipment" id="equipment">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__overline">HARDWARE MANIFEST</p>
+        <h2 class="section-header__title">The Kit</h2>
+        <p class="section-header__desc">Redundancy built in at every level. Two bodies, multiple lenses, backup cards and batteries for every session.</p>
+      </div>
+
+      <div class="equipment__grid">
+
+        <div class="equipment__card">
+          <div class="equipment__terminal">
+            <div class="about__terminal-bar">
+              <span class="about__terminal-dot" style="background:#fb565b;"></span>
+              <span class="about__terminal-dot" style="background:#ffba00;"></span>
+              <span class="about__terminal-dot" style="background:#008b00;"></span>
+              <span class="about__terminal-title">primary_body.cfg</span>
+            </div>
+            <div class="about__terminal-body">
+              <code><span class="code-key">body</span>=<span class="code-str">"Top of the line camera"</span></code>
+              <code><span class="code-key">sensor</span>=<span class="code-str">"50.1MP Full Frame"</span></code>
+              <code><span class="code-key">burst</span>=<span class="code-str">"30fps electronic"</span></code>
+              <code><span class="code-key">af_points</span>=<span class="code-str">"759 phase-detect"</span></code>
+              <code><span class="code-key">role</span>=<span class="code-accent">"PRIMARY"</span></code>
+            </div>
+          </div>
+        </div>
+
+        <div class="equipment__card">
+          <div class="equipment__terminal">
+            <div class="about__terminal-bar">
+              <span class="about__terminal-dot" style="background:#fb565b;"></span>
+              <span class="about__terminal-dot" style="background:#ffba00;"></span>
+              <span class="about__terminal-dot" style="background:#008b00;"></span>
+              <span class="about__terminal-title">backup_body.cfg</span>
+            </div>
+            <div class="about__terminal-body">
+              <code><span class="code-key">body</span>=<span class="code-str">"Canon EOS R3"</span></code>
+              <code><span class="code-key">sensor</span>=<span class="code-str">"24.1MP Full Frame"</span></code>
+              <code><span class="code-key">burst</span>=<span class="code-str">"30fps electronic"</span></code>
+              <code><span class="code-key">af_points</span>=<span class="code-str">"1053 cross-type"</span></code>
+              <code><span class="code-key">role</span>=<span class="code-accent">"BACKUP"</span></code>
+            </div>
+          </div>
+        </div>
+
+        <div class="equipment__card equipment__card--lenses">
+          <div class="equipment__terminal">
+            <div class="about__terminal-bar">
+              <span class="about__terminal-dot" style="background:#fb565b;"></span>
+              <span class="about__terminal-dot" style="background:#ffba00;"></span>
+              <span class="about__terminal-dot" style="background:#008b00;"></span>
+              <span class="about__terminal-title">lens_array.cfg</span>
+            </div>
+            <div class="about__terminal-body">
+              <code><span class="code-key">wide</span>=<span class="code-str">"24-70mm f/2.8 GM II"</span></code>
+              <code><span class="code-key">tele</span>=<span class="code-str">"70-200mm f/2.8 GM II"</span></code>
+              <code><span class="code-key">super_tele</span>=<span class="code-str">"200-600mm f/5.6-6.3 G"</span></code>
+              <code><span class="code-key">prime</span>=<span class="code-str">"85mm f/1.4 GM"</span></code>
+              <code><span class="code-key">status</span>=<span class="code-accent">"ALL UNITS READY"</span></code>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </section>
+  -->
+  <!-- CTA -->
+  <section class="work-cta">
+    <div class="container">
+      <div class="work-cta__inner">
+        <p class="work-cta__overline">READY TO EXECUTE?</p>
+        <h2 class="work-cta__title">Let's build your visual identity.</h2>
+        <p class="work-cta__desc">Whether it's a single session or a full season, I'm here to make your athletes look as good as they perform.</p>
+        <div class="work-cta__actions">
+          <a href="index.html#contact" class="btn btn--primary btn--lg">BOOK_SESSION</a>
+          <a href="index.html#gallery" class="btn btn--ghost btn--lg">VIEW_ARCHIVE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg class="top-bar__bolt" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#00d992" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+            <span>Maxime-Olivier Bourgeois</span>
+          </div>
+          <p class="footer__tagline">Elite sports photography. Engineered precision.</p>
+        </div>
+        <div class="footer__links">
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="work.html" class="footer__link">Services</a>
+          <a href="index.html#gallery" class="footer__link">Archive</a>
+          <a href="index.html#contact" class="footer__link">Contact</a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/maximeolivierbourgeois" class="footer__social-link" aria-label="Instagram" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/MaxoProduction/" class="footer__social-link" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Maxime-Olivier Bourgeois. All rights reserved.</p>
+        <p class="footer__version">SYSTEM v2.6.0 — OPERATIONAL</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

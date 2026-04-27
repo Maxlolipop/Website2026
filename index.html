@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLTFRAME — Elite Sports Photography</title>
+  <meta name="description" content="High-fidelity sports photography. Precision capture for professional teams, athletic brands, and elite athletes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- NAVIGATION — TopAppBar                      -->
+  <!-- ═══════════════════════════════════════════ -->
+  <nav class="top-bar" id="topBar">
+    <div class="top-bar__inner">
+      <a href="index.html" class="top-bar__logo">
+        <svg class="top-bar__bolt" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#00d992" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+        <span class="top-bar__name">MAX</span>
+      </a>
+
+      <div class="top-bar__links" id="navLinks">
+        <a href="index.html" class="top-bar__link">HOME</a>
+        <a href="work.html" class="top-bar__link">SERVICES</a>
+        <a href="index.html#gallery" class="top-bar__link">ARCHIVE</a>
+        <a href="index.html#contact" class="top-bar__link">TRANSMIT</a>
+      </div>
+
+      <div class="top-bar__actions">
+        <a href="index.html#contact" class="btn btn--primary">BOOK_SESSION</a>
+        <button class="top-bar__hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" class="mobile-nav__link">HOME</a>
+    <a href="work.html" class="mobile-nav__link">SERVICES</a>
+    <a href="index.html#gallery" class="mobile-nav__link">ARCHIVE</a>
+    <a href="index.html#contact" class="mobile-nav__link">TRANSMIT</a>
+    <a href="index.html#contact" class="btn btn--primary mobile-nav__cta">BOOK_SESSION</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- HERO — Cinematic Landing                    -->
+  <!-- ═══════════════════════════════════════════ -->
+  <header class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__overline">SPORTS PHOTOGRAPHY TERMINAL v2.6</p>
+      <h1 class="hero__title">
+        Precision Capture<br>
+        for <span class="hero__accent">Elite Athletes</span>
+      </h1>
+      <p class="hero__sub">
+        High-velocity action photography engineered for professional teams, athletic brands, and individual athletes who demand cinematic results.
+      </p>
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--primary btn--lg">BOOK_SESSION</a>
+        <a href="#gallery" class="btn btn--ghost btn--lg">VIEW_ARCHIVE</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-value">500+</span>
+          <span class="hero__stat-label">SESSIONS</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">220k</span>
+          <span class="hero__stat-label">FRAMES</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>SCROLL TO EXPLORE</span>
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+        <rect x="1" y="1" width="14" height="22" rx="7" stroke="#3d3a39" stroke-width="1.5"/>
+        <circle class="hero__scroll-dot" cx="8" cy="8" r="2" fill="#00d992"/>
+      </svg>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- CLIENT TRUST PROTOCOL — Logo Marquee        -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="marquee-section">
+    <p class="marquee-section__label">CLIENT TRUST PROTOCOL</p>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" id="marqueeTrack">
+        <span class="marquee__item">Tournée Alex Burrows</span>
+        <span class="marquee__item">NBHPA</span>
+        <span class="marquee__item">Rendez-Vous Lévis</span>
+        <span class="marquee__item">Cégep de Sainte-Foy</span>
+        <span class="marquee__item">Festivent de Lévis</span>
+        <span class="marquee__item">Tournée Alex Burrows</span>
+        <span class="marquee__item">NBHPA</span>
+        <span class="marquee__item">Rendez-Vous Lévis</span>
+        <span class="marquee__item">Cégep de Sainte-Foy</span>
+        <span class="marquee__item">Festivent de Lévis</span>
+        <span class="marquee__item">Tournée Alex Burrows</span>
+        <span class="marquee__item">NBHPA</span>
+        <span class="marquee__item">Rendez-Vous Lévis</span>
+        <span class="marquee__item">Cégep de Sainte-Foy</span>
+        <span class="marquee__item">Festivent de Lévis</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- DYNAMIC KINETICS — Gallery                  -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__overline">DYNAMIC KINETICS</p>
+        <h2 class="section-header__title">The Archive</h2>
+      </div>
+
+      <div class="gallery__filters">
+        <button class="filter-btn filter-btn--active" data-filter="all">ALL_RECORDS</button>
+        <button class="filter-btn" data-filter="motorsport">MOTORSPORT</button>
+        <button class="filter-btn" data-filter="athletics">ATHLETICS</button>
+        <button class="filter-btn" data-filter="court">COURT_SPORTS</button>
+        <button class="filter-btn" data-filter="combat">COMBAT</button>
+      </div>
+
+      <div class="gallery__grid" id="galleryGrid">
+
+        <article class="card" data-category="motorsport">
+          <div class="card__image" style="--hue: 160;">
+            <div class="card__image-inner">
+              <picture>
+                <source srcset="assets/MotorsportBK.jpg" type="image/webp">
+                <img src="assets/MotorsportBK.jpg" alt="Monticello Invitational — CCGT racing on track" class="card__img">
+              </picture>
+            </div>
+            <div class="card__overlay">
+              <span class="card__meta-btn">Monticello Invitational</span>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__tag">MOTORSPORT</span>
+            <h3 class="card__title">High-speed photography</h3>
+            <p class="card__desc">From pitlane to track</p>
+            <div class="card__meta">
+              <span class="card__exif">f/4 · 1/100 · ISO 100</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="athletics">
+          <div class="card__image" style="--hue: 200;">
+            <div class="card__image-inner">
+              <picture>
+                <source srcset="assets/VeloBK.jpg" type="image/webp">
+                <img src="assets/VeloBK.jpg" alt="Monticello Invitational — CCGT racing on track" class="card__img">
+              </picture>
+            </div>
+            <div class="card__overlay">
+              <span class="card__meta-btn">Training documentary</span>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__tag">ATHLETICS</span>
+            <h3 class="card__title">Biking & Running — Athlete training</h3>
+            <p class="card__desc">from short training to ultra trails documentary.</p>
+            <div class="card__meta">
+              <span class="card__exif">f/2.8 · 1/120s · ISO 100</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="combat">
+          <div class="card__image" style="--hue: 280;">
+            <div class="card__image-inner">
+              <picture>
+                <source srcset="assets/Martial.JPG" type="image/webp">
+                <img src="assets/Martial.JPG" alt="Monticello Invitational — CCGT racing on track" class="card__img">
+              </picture>
+            </div>
+            <div class="card__overlay">
+              <span class="card__meta-btn">Martial Arts Competition</span>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__tag">COMBAT</span>
+            <h3 class="card__title">Martial Arts</h3>
+            <p class="card__desc">Documentation of traditional and modern martial arts techniques.</p>
+            <div class="card__meta">
+              <span class="card__exif">f/2.8 · 1/2000s · ISO 6400</span>
+              <span class="card__date">2026.01</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="court">
+          <div class="card__image" style="--hue: 0;">
+            <div class="card__image-inner">
+              <picture>
+                <source srcset="assets/DEK.jpg" type="image/webp">
+                <img src="assets/DEK.jpg" alt="Monticello Invitational — CCGT racing on track" class="card__img">
+              </picture>
+            </div>
+            <div class="card__overlay">
+              <span class="card__meta-btn">Burrows cup</span>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__tag">COURT SPORTS</span>
+            <h3 class="card__title">Sports tournaments</h3>
+            <p class="card__desc">Documentation of competitive sports events and tournaments.</p>
+            <div class="card__meta">
+              <span class="card__exif">f/2.0 · 1/3200s · ISO 5000</span>
+              <span class="card__date">2025.12</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="court">
+          <div class="card__image" style="--hue: 140;">
+            <div class="card__image-inner">
+              <picture>
+                <source srcset="assets/CELEBRATION.jpg" type="image/webp">
+                <img src="assets/CELEBRATION.jpg" alt="Monticello Invitational — CCGT racing on track" class="card__img">
+              </picture>
+            </div>
+            <div class="card__overlay">
+              <span class="card__meta-btn">High smiles</span>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__tag">COURT SPORTS</span>
+            <h3 class="card__title">Celebration</h3>
+            <p class="card__desc">Documenting the joy and excitement of sports victories and achievements.</p>
+            <div class="card__meta">
+              <span class="card__exif">f/4.0 · 1/2500s · ISO 800</span>
+              <span class="card__date">2025.11</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- ABOUT — Protocol Section                    -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__overline">SYSTEM PROTOCOL</p>
+        <h2 class="section-header__title">The Operator</h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__card about__card--featured">
+          <div class="about__terminal">
+            <div class="about__terminal-bar">
+              <span class="about__terminal-dot" style="background:#fb565b;"></span>
+              <span class="about__terminal-dot" style="background:#ffba00;"></span>
+              <span class="about__terminal-dot" style="background:#008b00;"></span>
+              <span class="about__terminal-title">operator_profile.sh</span>
+            </div>
+            <div class="about__terminal-body">
+              <code><span class="code-key">name</span>=<span class="code-str">"VoltFrame Operator"</span></code>
+              <code><span class="code-key">specialization</span>=<span class="code-str">"Sports &amp; Action Photography"</span></code>
+              <code><span class="code-key">experience</span>=<span class="code-str">"8+ years field operations"</span></code>
+              <code><span class="code-key">equipment</span>=<span class="code-str">"Sony Alpha | Canon EOS R"</span></code>
+              <code><span class="code-key">status</span>=<span class="code-accent">"ACTIVE"</span></code>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__info">
+          <div class="about__card">
+            <h3 class="about__card-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00d992" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Response Time
+            </h3>
+            <p class="about__card-value">&lt; 24h</p>
+            <p class="about__card-desc">Inquiry to confirmation</p>
+          </div>
+          <div class="about__card">
+            <h3 class="about__card-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00d992" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              Delivery
+            </h3>
+            <p class="about__card-value">48–72h</p>
+            <p class="about__card-desc">Post-session edited gallery</p>
+          </div>
+          <div class="about__card">
+            <h3 class="about__card-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00d992" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              Output
+            </h3>
+            <p class="about__card-value">RAW + Edit</p>
+            <p class="about__card-desc">Full resolution deliverables</p>
+          </div>
+          <div class="about__card">
+            <h3 class="about__card-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00d992" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Range
+            </h3>
+            <p class="about__card-value">Global</p>
+            <p class="about__card-desc">Available for on-location worldwide</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- SECURE TRANSMISSION — Contact               -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__overline">SECURE TRANSMISSION</p>
+        <h2 class="section-header__title">Initiate Contact</h2>
+        <p class="section-header__desc">Open a secure channel to schedule a session. All transmissions are encrypted and confirmed within 24 hours.</p>
+      </div>
+
+      <div class="contact__grid">
+        <form class="contact__form" id="contactForm">
+          <div class="contact__terminal-bar">
+            <span class="about__terminal-dot" style="background:#fb565b;"></span>
+            <span class="about__terminal-dot" style="background:#ffba00;"></span>
+            <span class="about__terminal-dot" style="background:#008b00;"></span>
+            <span class="about__terminal-title">new_transmission.sh</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="name">
+              <span class="form-label__prefix">$</span> NAME
+            </label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Enter full designation..." required autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">
+              <span class="form-label__prefix">$</span> E-MAIl
+            </label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="email@domain.com" required autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="project">
+              <span class="form-label__prefix">$</span> PROJECT TYPE
+            </label>
+            <select id="project" name="project" class="form-input form-select" required>
+              <option value="" disabled selected>Select mission type...</option>
+              <option value="team">Team / League Coverage</option>
+              <option value="brand">Brand Campaign</option>
+              <option value="athlete">Individual Athlete Portfolio</option>
+              <option value="event">Event Documentation</option>
+              <option value="other">Other Protocol</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">
+              <span class="form-label__prefix">$</span> IMPORTANT INFOS
+            </label>
+            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Describe mission parameters, timeline, and objectives..." rows="5" required></textarea>
+          </div>
+
+          <div class="contact__form-footer">
+            <button type="submit" class="btn btn--primary btn--lg btn--submit">
+              EXECUTE_TRANSMISSION
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="contact__status" id="formStatus">
+              <span class="contact__status-dot"></span>
+              <span class="contact__status-text">SYSTEM READY</span>
+            </div>
+          </div>
+        </form>
+
+        <div class="contact__info">
+          <div class="contact__info-card">
+            <h3 class="contact__info-title">Direct Channels</h3>
+            <div class="contact__channel">
+              <span class="contact__channel-label">EMAIL</span>
+              <span class="contact__channel-value">ME@MAXIMEOLIVIER.CA</span>
+            </div>
+            <div class="contact__channel">
+              <span class="contact__channel-label">LOCATION</span>
+              <span class="contact__channel-value">QUÉBEC, QC — Global Range</span>
+            </div>
+          </div>
+
+          <div class="contact__info-card">
+            <h3 class="contact__info-title">System Status</h3>
+            <div class="contact__status-row">
+              <span class="contact__status-indicator contact__status-indicator--active"></span>
+              <span>Booking: OPEN</span>
+            </div>
+            <div class="contact__status-row">
+              <span class="contact__status-indicator contact__status-indicator--active"></span>
+              <span>Response Time: &lt; 48H</span>
+            </div>
+            <div class="contact__status-row">
+              <span class="contact__status-indicator contact__status-indicator--active"></span>
+              <span>Availability: Q2 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- FOOTER                                      -->
+  <!-- ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg class="top-bar__bolt" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#00d992" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+            <span>Maxime-Olivier Bourgeois</span>
+          </div>
+          <p class="footer__tagline">Elite sports photography. Engineered precision.</p>
+        </div>
+        <div class="footer__links">
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="work.html" class="footer__link">Services</a>
+          <a href="index.html#gallery" class="footer__link">Archive</a>
+          <a href="index.html#contact" class="footer__link">Contact</a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/maximeolivierbourgeois" class="footer__social-link" aria-label="Instagram" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/MaxoProduction/" class="footer__social-link" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Maxime-Olivier Bourgeois. All rights reserved.</p>
+        <p class="footer__version">SYSTEM v2.6.0 — OPERATIONAL</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
